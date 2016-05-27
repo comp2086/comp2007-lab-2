@@ -1,16 +1,1 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="lab_2.Contact" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+﻿<%@ Page Title="Contact Us" Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="lab_2.Contact" %>

@@ -11,7 +11,20 @@ namespace lab_2.User_Controls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            setActiveLink();
+        }
 
+        private void setActiveLink()
+        {
+            switch (Page.Title)
+            {
+                case "Home":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Contact Us":
+                    contactus.Attributes.Add("class", "active");
+                    break;
+            }
         }
     }
 }
