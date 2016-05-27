@@ -13,5 +13,24 @@ namespace lab_2
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void btnSend_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            txtFirstName.Text = "";
+            txtLastName.Text = "";
+            txtEmail.Text = "";
+            txtPhone.Text = "";
+            txtMessage.Text = "";
+        }
     }
 }
